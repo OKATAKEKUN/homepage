@@ -4,7 +4,6 @@ import {
     Heading, 
     Image, 
     useColorModeValue,
-    SimpleGrid,
     List,
     ListItem,
     Link,
@@ -15,12 +14,10 @@ import Layout from '../components/layouts/article'
 import Section from '../components/section'
 import Paragraph from '../components/paragraph'
 import { BioSection, BioYear } from '../components/bio'
-import { GridItem } from '../components/grid-item'
 import {
     IoLogoTwitter,
     IoLogoInstagram,
     IoLogoGithub,
-    IoLogoDiscord
 } from 'react-icons/io5'
 
 const Page = () => {
