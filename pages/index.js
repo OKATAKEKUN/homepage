@@ -141,6 +141,19 @@ const Page = () => {
                         </ListItem>
                     </List>
                 </Section>
+
+                <Section delay={3.0}>
+                    <Heading as="h3" variant="section-title" mb="3">
+                        参考にしたホームページ
+                    </Heading>
+                    <List>
+                        <ListItem>
+                            <Link href="https://www.craftz.dog/" target="_blank">
+                                <Button variant="ghost" colorScheme="teal">Link</Button>
+                            </Link>
+                        </ListItem>
+                    </List>
+                </Section>
             </Container>
         </Layout>
     ) 
