@@ -33,7 +33,7 @@ const Page = () => {
                         <Heading as="h2" variant="page=title">
                             岡田　孟
                         </Heading>
-                        <p>Software-Enginner ( Developer / Creater )</p>
+                        <p>Software-Enginner ( Developer / Designer )</p>
                     </Box>
                     <Box 
                         flexShrink={0} 
@@ -59,7 +59,7 @@ const Page = () => {
                     </Heading>
                     <Paragraph>
                         私は社会人二年目のエンジニアとして働いています。現在は自動倉庫システム開発を基本設計から結合テストまで一貫として
-                        開発を任されております。得意言語はJavaですが、現在Reactを中心にフロントエンドのほうも勉強しております。
+                        開発を任されております。得意言語はJavaですが、現在React,TypeScript,Goを中心に勉強しております。
                         資格はITパスポート、基本情報技術者、応用情報技術者、Java Silver、Java Goldを取得しています。
                         まだまだ未熟ですが、これからも技術力を高めるべく精進していくつもりです。
                         暖かくこのサイトを見ていただければ幸いです。
@@ -75,24 +75,6 @@ const Page = () => {
                             1997
                         </BioYear>
                         神奈川県横浜市出身
-                    </BioSection>
-                    <BioSection>
-                        <BioYear>
-                            2003
-                        </BioYear>
-                        精華小学校入学
-                    </BioSection>
-                    <BioSection>
-                        <BioYear>
-                            2010
-                        </BioYear>
-                        攻玉社中学入学
-                    </BioSection>
-                    <BioSection>
-                        <BioYear>
-                            2013
-                        </BioYear>
-                        攻玉社高校入学
                     </BioSection>
                     <BioSection>
                         <BioYear>
@@ -122,12 +104,12 @@ const Page = () => {
                     </Heading>
                     <List>
                         <ListItem>
-                            <Link href="https://twitter.com/okatakese" target="_blank">
+                            <Link href="https://twitter.com/@CozyEnginner" target="_blank">
                                 <Button variant="ghost" colorScheme="teal" leftIcon={<Icon as={IoLogoTwitter}></Icon>} >Twitter</Button>
                             </Link>
                         </ListItem>
                         <ListItem>
-                            <Link href="https://www.instagram.com/takeshi1997ynu/" target="_blank">
+                            <Link href="https://www.instagram.com/cozy_life_enginner/" target="_blank">
                                 <Button variant="ghost" colorScheme="teal" leftIcon={<Icon as={IoLogoInstagram}></Icon>} >Instagram</Button>
                             </Link>
                         </ListItem>
